@@ -24,25 +24,25 @@ To improve call-centre efficiency by identifying:
 telecom-customer-sql-analysis/
 │
 ├── dataset/
-│ └── wallace_communications_data.csv
+│   └── wallace_communications_data.csv
 │
 ├── sql/
-│ ├── 01_table_creation.sql
-│ ├── 02_data_import.sql
-│ ├── 03_data_validation.sql
-│ ├── 04_exploratory_analysis.sql
-│ ├── 05_business_questions.sql
-│ ├── 06_advanced_analysis.sql
-│ └── 07_views.sql
+│   ├── 01_table_creation.sql
+│   ├── 02_data_import.sql
+│   ├── 03_data_validation.sql
+│   ├── 04_exploratory_analysis.sql
+│   ├── 05_business_questions.sql
+│   ├── 06_advanced_analysis.sql
+│   └── 07_views.sql
 │
 ├── views/
-│ ├── age_segmentation.png
-│ ├── campaign_intensity.png
-│ ├── contact_method_distribution.png
-│ ├── conversion_by_balance.png
-│ ├── conversion_by_job.png
-│ ├── overall_kpi.png
-│ └── previous_campaign_outcome.pngcontact_method_distribution.png
+│   ├── age_segmentation.png
+│   ├── campaign_intensity.png
+│   ├── contact_method_distribution.png
+│   ├── conversion_by_balance.png
+│   ├── conversion_by_job.png
+│   ├── overall_kpi.png
+│   └── previous_campaign_outcome.png
 │
 └── README.md
 
@@ -93,25 +93,27 @@ telecom-customer-sql-analysis/
 ## 📊 Visual Insights
 
 ### 📌 Overall Campaign Performance
-![Overall KPI](views/overall_kpi.png)
+<p align="center">
+  <img src="views/overall_kpi.png" width="600">
+</p>
 
-### 📌 Conversion by Job
-![Conversion by Job](views/conversion_by_job.png)
+### 📌 Conversion by Job & Age Segmentation
+<p align="center">
+  <img src="views/conversion_by_job.png" width="45%">
+  <img src="views/age_segmentation.png" width="45%">
+</p>
 
-### 📌 Age-Based Segmentation
-![Age Segmentation](views/age_segmentation.png)
+### 📌 Balance Segmentation & Campaign Effectiveness
+<p align="center">
+  <img src="views/conversion_by_balance.png" width="45%">
+  <img src="views/campaign_intensity.png" width="45%">
+</p>
 
-### 📌 Balance-Based Segmentation
-![Balance Analysis](views/conversion_by_balance.png)
-
-### 📌 Campaign Intensity Effect
-![Campaign Intensity](views/campaign_intensity.png)
-
-### 📌 Previous Campaign Outcome Impact
-![Previous Campaign](views/previous_campaign_outcome.png)
-
-### 📌 Contact Method Distribution
-![Contact Method](views/contact_method_distribution.png)
+### 📌 Previous Campaign Impact & Contact Method
+<p align="center">
+  <img src="views/previous_campaign_outcome.png" width="45%">
+  <img src="views/contact_method_distribution.png" width="45%">
+</p>
 
 ---
 
