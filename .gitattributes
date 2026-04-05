@@ -1,6 +1,10 @@
-# Force GitHub to detect SQL as main language
+# Force SQL detection
 *.sql linguist-language=SQL
 
-# Exclude non-code folders
+# Ignore non-code files from language stats
 dataset/* linguist-vendored
 images/* linguist-vendored
+*.xlsx linguist-vendored
+*.csv linguist-vendored
+*.png linguist-vendored
+*.jpg linguist-vendored
