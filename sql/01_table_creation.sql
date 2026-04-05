@@ -20,3 +20,4 @@ CREATE TABLE IF NOT EXISTS telecom_customers (
     outcome_previous_campaign TEXT,
     new_contract_this_campaign TEXT
 );
+-- refresh
