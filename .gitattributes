@@ -1,7 +1,6 @@
+# Force GitHub to detect SQL as main language
 *.sql linguist-language=SQL
-*.csv linguist-vendored
-<<<<<<< HEAD
-*.png linguist-vendored
-=======
-*.png linguist-vendored
->>>>>>> 512ef7f1f484652e5f07fd77f8ecebe3a32955b3
+
+# Exclude non-code folders
+dataset/* linguist-vendored
+images/* linguist-vendored
