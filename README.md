@@ -90,33 +90,6 @@ telecom-customer-sql-analysis/
 
 ---
 
-## 📊 Visual Insights
-
-### 📌 Overall Campaign Performance
-<p align="center">
-  <img src="views/overall_kpi.png" width="600">
-</p>
-
-### 📌 Conversion by Job & Age Segmentation
-<p align="center">
-  <img src="views/conversion_by_job.png" width="45%">
-  <img src="views/age_segmentation.png" width="45%">
-</p>
-
-### 📌 Balance Segmentation & Campaign Effectiveness
-<p align="center">
-  <img src="views/conversion_by_balance.png" width="45%">
-  <img src="views/campaign_intensity.png" width="45%">
-</p>
-
-### 📌 Previous Campaign Impact & Contact Method
-<p align="center">
-  <img src="views/previous_campaign_outcome.png" width="45%">
-  <img src="views/contact_method_distribution.png" width="45%">
-</p>
-
----
-
 ## 🧠 Key SQL Features Demonstrated
 
 - Data modelling and schema design  
