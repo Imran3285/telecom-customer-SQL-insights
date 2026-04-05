@@ -21,11 +21,32 @@ To improve call-centre efficiency by identifying:
 ---
 
 ## 📂 Project Structure
-
-├── dataset # Full 50,000+ rows customers data
-├── sql # Contain files related to sql
-├── views/ # Visual outputs
+```
+telecom-customer-sql-analysis/
+│
+├── dataset/
+│   └── wallace_communications_data.csv
+│
+├── sql/
+│   ├── 01_table_creation.sql
+│   ├── 02_data_import.sql
+│   ├── 03_data_validation.sql
+│   ├── 04_exploratory_analysis.sql
+│   ├── 05_business_questions.sql
+│   ├── 06_advanced_analysis.sql
+│   └── 07_views.sql
+│
+├── views/
+│   ├── age_segmentation.png
+│   ├── campaign_intensity.png
+│   ├── contact_method_distribution.png
+│   ├── conversion_by_balance.png
+│   ├── conversion_by_job.png
+│   ├── overall_kpi.png
+│   └── previous_campaign_outcome.png
+│
 └── README.md
+```
 ---
 
 ## 🔄 Data Workflow
