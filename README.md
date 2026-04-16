@@ -36,7 +36,7 @@ telecom-customer-sql-analysis/
 │   ├── 06_advanced_analysis.sql
 │   └── 07_views.sql
 │
-├── views/
+├── images/
 │   ├── age_segmentation.png
 │   ├── campaign_intensity.png
 │   ├── contact_method_distribution.png
